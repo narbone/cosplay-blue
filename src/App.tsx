@@ -202,13 +202,13 @@ const NavBar: React.FC = () => (
 
   <nav className="sticky top-0 z-50 bg-[rgba(61,62,64,0.2)] backdrop-blur-sm] font-mono">
     <div className="max-w-[1600px] mx-auto px-6 lg:px-20 py-4 flex justify-between items-center">
-      <div className="w-24 lg:w-28">
+      {/* <div className="w-24 lg:w-28">
         <img
           src="images/vv-logo.png"
           alt="logo"
           className="size-full object-contain"
         />
-      </div>
+      </div> */}
     </div>
   </nav>
 );
